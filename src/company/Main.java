@@ -20,8 +20,10 @@ public class Main {
         Zodyagı zodyagı=new Zodyagı();
         zodyagı.cinzodyak();
         artıkyıl artık=new artıkyıl();
-        artık.hesapla();*/
+        artık.hesapla();
         BüyükKücükBulma büyükKücükBulma=new BüyükKücükBulma();
-        büyükKücükBulma.bulma();
+        büyükKücükBulma.bulma();*/
+        MukemmelSayı mukemmelSayı=new MukemmelSayı();
+        mukemmelSayı.hesapla();
     }
 }
