@@ -14,8 +14,10 @@ public class Main {
         double index = kilo / ( boy * boy ) ;
         System.out.println("vücut kitle endeksiniz" +index);
         ManavKasaProgramı manavKasaProgramı=new ManavKasaProgramı();
-        manavKasaProgramı.girdi();*/
+        manavKasaProgramı.girdi();
         UcakBileti ucakBileti=new UcakBileti();
-        ucakBileti.hesapla();
+        ucakBileti.hesapla();*/
+        Zodyagı zodyagı=new Zodyagı();
+        zodyagı.cinzodyak();
     }
 }
