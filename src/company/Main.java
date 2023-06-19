@@ -18,8 +18,10 @@ public class Main {
         UcakBileti ucakBileti=new UcakBileti();
         ucakBileti.hesapla();
         Zodyagı zodyagı=new Zodyagı();
-        zodyagı.cinzodyak();*/
+        zodyagı.cinzodyak();
         artıkyıl artık=new artıkyıl();
-        artık.hesapla();
+        artık.hesapla();*/
+        BüyükKücükBulma büyükKücükBulma=new BüyükKücükBulma();
+        büyükKücükBulma.bulma();
     }
 }
