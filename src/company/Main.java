@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        System.out.println("lütfen boyunuzu (metre cinsinden) giriniz? :");
+        /*System.out.println("lütfen boyunuzu (metre cinsinden) giriniz? :");
         double boy = scanner.nextDouble();
         System.out.println("lütfen boyunuzu (metre cinsinden) giriniz? :"+boy);
         int kilo = scanner.nextInt();
@@ -14,6 +14,8 @@ public class Main {
         double index = kilo / ( boy * boy ) ;
         System.out.println("vücut kitle endeksiniz" +index);
         ManavKasaProgramı manavKasaProgramı=new ManavKasaProgramı();
-        manavKasaProgramı.girdi();
+        manavKasaProgramı.girdi();*/
+        UcakBileti ucakBileti=new UcakBileti();
+        ucakBileti.hesapla();
     }
 }
