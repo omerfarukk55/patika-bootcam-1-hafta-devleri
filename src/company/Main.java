@@ -16,8 +16,10 @@ public class Main {
         ManavKasaProgramı manavKasaProgramı=new ManavKasaProgramı();
         manavKasaProgramı.girdi();
         UcakBileti ucakBileti=new UcakBileti();
-        ucakBileti.hesapla();*/
+        ucakBileti.hesapla();
         Zodyagı zodyagı=new Zodyagı();
-        zodyagı.cinzodyak();
+        zodyagı.cinzodyak();*/
+        artıkyıl artık=new artıkyıl();
+        artık.hesapla();
     }
 }
