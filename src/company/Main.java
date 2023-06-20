@@ -26,8 +26,10 @@ public class Main {
         MukemmelSayı mukemmelSayı=new MukemmelSayı();
         mukemmelSayı.hesapla();
         yıldız yıldız1=new yıldız();
-        yıldız1.yap();*/
+        yıldız1.yap();
         AsalSayı asalSayı=new AsalSayı();
-        asalSayı.bul();
+        asalSayı.bul();*/
+        fibonacci fibb=new fibonacci();
+        fibb.fib();
     }
 }

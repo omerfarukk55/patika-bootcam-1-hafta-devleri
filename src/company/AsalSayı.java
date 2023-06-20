@@ -18,7 +18,7 @@ public class AsalSayı {
             }
 
             if (asal){
-                System.out.print(i + " ");
+                System.out.printf("%d ",i);
             }
 
         }
