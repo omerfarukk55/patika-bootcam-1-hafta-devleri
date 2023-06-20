@@ -22,8 +22,12 @@ public class Main {
         artıkyıl artık=new artıkyıl();
         artık.hesapla();
         BüyükKücükBulma büyükKücükBulma=new BüyükKücükBulma();
-        büyükKücükBulma.bulma();*/
+        büyükKücükBulma.bulma();
         MukemmelSayı mukemmelSayı=new MukemmelSayı();
         mukemmelSayı.hesapla();
+        yıldız yıldız1=new yıldız();
+        yıldız1.yap();*/
+        AsalSayı asalSayı=new AsalSayı();
+        asalSayı.bul();
     }
 }
