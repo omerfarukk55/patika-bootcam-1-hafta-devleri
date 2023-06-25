@@ -30,11 +30,17 @@ public class Main {
         AsalSayı asalSayı=new AsalSayı();
         asalSayı.bul();
         fibonacci fibb=new fibonacci();
-        fibb.fib();*/
+        fibb.fib();
         Scanner scanner1=new Scanner(System.in);
         int m=scanner1.nextInt();
         int s=scanner1.nextInt();
         üslüsayı üslüsayı2=new üslüsayı();
-        System.out.println(üslüsayı2.üslüsayı1(m,s));
+        System.out.println(üslüsayı2.üslüsayı1(m,s));*/
+        asalRecursive asal=new asalRecursive();
+        Scanner scanner1=new Scanner(System.in);
+        int m=scanner1.nextInt();
+        if (asal.asalsayı(m)==0){
+            System.out.println("sayı asaldır");
+        }else System.out.println("sayı  asal değildir");
     }
 }
