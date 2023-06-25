@@ -28,8 +28,13 @@ public class Main {
         yıldız yıldız1=new yıldız();
         yıldız1.yap();
         AsalSayı asalSayı=new AsalSayı();
-        asalSayı.bul();*/
+        asalSayı.bul();
         fibonacci fibb=new fibonacci();
-        fibb.fib();
+        fibb.fib();*/
+        Scanner scanner1=new Scanner(System.in);
+        int m=scanner1.nextInt();
+        int s=scanner1.nextInt();
+        üslüsayı üslüsayı2=new üslüsayı();
+        System.out.println(üslüsayı2.üslüsayı1(m,s));
     }
 }

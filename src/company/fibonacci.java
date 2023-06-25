@@ -13,5 +13,6 @@ public class fibonacci {
             System.out.print(sum+" ");
 
         }
+
     }
 }
