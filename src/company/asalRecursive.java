@@ -1,8 +1,8 @@
 package company;
 
 public class asalRecursive {
-    public int asalsayı(int sayı){
-     int i=2;
+    public int asalsayı(int sayı,int n){
+     int i=n;
      if (sayı/i==1){
          return 0;
      }
@@ -16,6 +16,6 @@ public class asalRecursive {
      if (sayı%i==0){
            return 1;
        }
-     return asalsayı(sayı);
+     return asalsayı(sayı,i);
     }
 }
