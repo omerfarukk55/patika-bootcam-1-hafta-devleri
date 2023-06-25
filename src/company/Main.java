@@ -48,6 +48,14 @@ public class Main {
         SAYDIR saydir=new SAYDIR();
         int n=m;
         saydir.diz(n,m);*/
+        Scanner scanner1=new Scanner(System.in);
+        String m=scanner1.nextLine();
+        double s=scanner1.nextDouble();
+        int h= scanner1.nextInt();
+        int y = scanner1.nextInt();
 
+
+      Employee employee=new Employee(m,s,h,y);
+      employee.toString1();
     }
 }
