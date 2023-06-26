@@ -65,11 +65,13 @@ public class Main {
         }
          diziSırala dizisırala=new diziSırala();
         dizisırala.elemanSırala(sırala);
-*/
-
         int[] sırala={10, 20, 20, 10, 10, 20, 5, 20};
         frekans fr=new frekans();
-        fr.frekansı(sırala);
+        fr.frekansı(sırala);*/
+      transBoz transboz=new transBoz();
+      int[][] matris={{1,2,3},{4,5,6},{7,8,9}};
+
+      transboz.trans(matris);
 
     }
 }
