@@ -47,7 +47,7 @@ public class Main {
         int m=scanner1.nextInt();
         SAYDIR saydir=new SAYDIR();
         int n=m;
-        saydir.diz(n,m);*/
+        saydir.diz(n,m);
         Scanner scanner1=new Scanner(System.in);
         String m=scanner1.nextLine();
         double s=scanner1.nextDouble();
@@ -56,6 +56,15 @@ public class Main {
 
 
       Employee employee=new Employee(m,s,h,y);
-      employee.toString1();
+      employee.toString1();*/
+
+        int m=scanner.nextInt();
+        int[] sırala=new int[m];
+        for (int i=0;i<sırala.length;i++) {
+            sırala[i] = scanner.nextInt();
+        }
+         diziSırala dizisırala=new diziSırala();
+        dizisırala.elemanSırala(sırala);
+
     }
 }
