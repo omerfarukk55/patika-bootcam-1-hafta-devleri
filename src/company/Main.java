@@ -56,7 +56,7 @@ public class Main {
 
 
       Employee employee=new Employee(m,s,h,y);
-      employee.toString1();*/
+      employee.toString1();
 
         int m=scanner.nextInt();
         int[] sırala=new int[m];
@@ -65,6 +65,11 @@ public class Main {
         }
          diziSırala dizisırala=new diziSırala();
         dizisırala.elemanSırala(sırala);
+*/
+
+        int[] sırala={10, 20, 20, 10, 10, 20, 5, 20};
+        frekans fr=new frekans();
+        fr.frekansı(sırala);
 
     }
 }
